@@ -1,0 +1,234 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "username": "nguyenb",
+      "email": "nguyenb@example.com",
+      "password": "hashedpassword456",
+      "fullName": "Nguyễn Văn B",
+      "role": "user",
+      "profilePic": "https://randomuser.me/api/portraits/men/2.jpg",
+      "createdAt": "2024-02-10T14:45:00Z"
+    },
+    {
+      "id": 3,
+      "username": "hoangtrang",
+      "email": "hoangtrang@example.com",
+      "password": "hashedpassword789",
+      "fullName": "Hoàng Tráng",
+      "role": "user",
+      "profilePic": "https://randomuser.me/api/portraits/women/1.jpg",
+      "createdAt": "2024-03-05T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "maihoa",
+      "email": "maihoa@example.com",
+      "password": "hashedpassword101",
+      "fullName": "Mai Hoa",
+      "role": "user",
+      "profilePic": "https://randomuser.me/api/portraits/women/2.jpg",
+      "createdAt": "2024-04-12T16:20:00Z"
+    },
+    {
+      "id": 5,
+      "username": "thanhtien",
+      "email": "thanhtien@example.com",
+      "password": "hashedpassword112",
+      "fullName": "Thành Tiến",
+      "role": "admin",
+      "profilePic": "https://randomuser.me/api/portraits/men/3.jpg",
+      "createdAt": "2024-05-25T18:30:00Z"
+    },
+    {
+      "id": 7,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "user123",
+      "fullName": "User One",
+      "role": "user",
+      "profilePic": "https://randomuser.me/api/portraits/men/5.jpg",
+      "createdAt": "2024-01-10T12:00:00Z"
+    }
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "tourName": "Du lịch Hà Nội - Sapa",
+      "description": "Khám phá vẻ đẹp núi rừng Tây Bắc và văn hóa của người dân tộc tại Sapa.",
+      "destination": "Hà Nội, Sapa, Việt Nam",
+      "region": "Miền Bắc",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShRKnkaks5BlZqUJyzyy5ZRw97p2vXF2-9xA&s"
+      ],
+      "duration": 5,
+      "price": 3500000,
+      "startDate": "2024-12-10",
+      "endDate": "2024-12-14",
+      "maxParticipants": 25,
+      "tourGuide": "Trần Minh T",
+      "LichTrinh": "Ngày 1: Khởi hành từ Hà Nội; Ngày 2: Tham quan Sapa; Ngày 3: Chinh phục Fansipan; Ngày 4: Tham quan các bản làng; Ngày 5: Trở về Hà Nội.",
+      "khoihanh": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "tourName": "Du lịch Phú Quốc",
+      "description": "Tour tham quan các bãi biển đẹp và các khu nghỉ dưỡng sang trọng tại Phú Quốc.",
+      "destination": "Phú Quốc, Việt Nam",
+      "region": "Miền Nam",
+      "images": [
+        "https://rootytrip.com/wp-content/uploads/2024/07/phu-quoc.jpg"
+      ],
+      "duration": 4,
+      "price": 2999000,
+      "startDate": "2024-12-01",
+      "endDate": "2024-12-07",
+      "maxParticipants": 20,
+      "tourGuide": "Nguyễn Văn B",
+      "LichTrinh": "Ngày 1: Tham quan Dương Đông; Ngày 2: Tham quan Vinpearl Safari; Ngày 3: Tham quan làng chài Hàm Ninh; Ngày 4: Trở về.",
+      "khoihanh": "Phú Quốc"
+    },
+    {
+      "id": 3,
+      "tourName": "Du lịch Đà Nẵng - Hội An",
+      "description": "Khám phá vẻ đẹp của thành phố biển Đà Nẵng và phố cổ Hội An với những di tích lịch sử.",
+      "destination": "Đà Nẵng, Hội An, Việt Nam",
+      "region": "Miền Trung",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6H5KyqbVWzD1CuuYgR4z7-MtoImMzZADdqw&s"
+      ],
+      "duration": 6,
+      "price": 4500000,
+      "startDate": "2024-12-15",
+      "endDate": "2024-12-20",
+      "maxParticipants": 30,
+      "tourGuide": "Lê Thị H",
+      "LichTrinh": "Ngày 1: Tham quan Đà Nẵng; Ngày 2: Bà Nà Hills; Ngày 3: Ngũ Hành Sơn; Ngày 4: Hội An; Ngày 5: Tham quan biển Cửa Đại; Ngày 6: Trở về.",
+      "khoihanh": "Đà Nẵng"
+    },
+    {
+      "id": 4,
+      "tourName": "Du lịch Nha Trang",
+      "description": "Chuyến tham quan biển Nha Trang với các hoạt động như lặn biển, tham quan các đảo xung quanh.",
+      "destination": "Nha Trang, Việt Nam",
+      "region": "Miền Trung",
+      "images": [
+        "https://t2.ex-cdn.com/crystalbay.com/resize/1860x570/files/content/2024/05/22/du-lich-nha-trang-1-1056.jpeg"
+      ],
+      "duration": 4,
+      "price": 3800000,
+      "startDate": "2024-12-05",
+      "endDate": "2024-12-09",
+      "maxParticipants": 15,
+      "tourGuide": "Phạm Minh D",
+      "LichTrinh": "Ngày 1: Tham quan đảo Vinpearl; Ngày 2: Lặn biển Hòn Mun; Ngày 3: Tắm bùn Tháp Bà; Ngày 4: Trở về.",
+      "khoihanh": "Nha Trang"
+    },
+    {
+      "id": 5,
+      "tourName": "Du lịch Hồ Chí Minh - Cần Thơ",
+      "description": "Khám phá thành phố Hồ Chí Minh sôi động và Cần Thơ với những khu chợ nổi đặc trưng.",
+      "destination": "Hồ Chí Minh, Cần Thơ, Việt Nam",
+      "region": "Miền Nam",
+      "images": [
+        "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/12/2/1123288/Can-Tho-1.jpg"
+      ],
+      "duration": 3,
+      "price": 2500000,
+      "startDate": "2024-12-12",
+      "endDate": "2024-12-14",
+      "maxParticipants": 18,
+      "tourGuide": "Nguyễn Thị T",
+      "LichTrinh": "Ngày 1: Hồ Chí Minh; Ngày 2: Cần Thơ (chợ nổi); Ngày 3: Trở về Hồ Chí Minh.",
+      "khoihanh": "Hồ Chí Minh"
+    },
+    {
+      "id": 6,
+      "tourName": "Du lịch Sầm Sơn",
+      "description": "Tour tham quan biển Sầm Sơn với các khu nghỉ dưỡng cao cấp.",
+      "destination": "Thanh Hóa",
+      "region": "Miền Trung",
+      "images": [
+        "https://vietlandtravel.vn/upload/img/products/07042021/bien-sam-son.jpg"
+      ],
+      "duration": 5,
+      "price": 3500000,
+      "startDate": "2024-12-09",
+      "endDate": "2024-12-13",
+      "maxParticipants": 33,
+      "tourGuide": "Lê Ngọc Tài",
+      "LichTrinh": "Ngày 1: Khởi hành từ Hà Nội; Ngày 2: Tham quan bãi biển; Ngày 3: Tham quan núi Trường Lệ; Ngày 4: Nghỉ dưỡng; Ngày 5: Trở về.",
+      "khoihanh": "Hà Nội"
+    },
+    {
+      "tourName": "Du Lịch Tràng An",
+      "description": "du lịch ninh bình",
+      "destination": "Ninh Bình",
+      "region": "Miền Bắc",
+      "price": 1300000,
+      "duration": 7,
+      "images": [
+        "https://vnpay.vn/s1/statics.vnpay.vn/2023/10/0s1uo3neeoms1698660990400.png",
+        "https://media-cdn-v2.laodong.vn/storage/newsportal/2022/4/24/1037447/Trang_An.jpeg"
+      ],
+      "startDate": "2024-12-10",
+      "endDate": "2024-12-13",
+      "maxParticipants": 56,
+      "tourGuide": "NGuyễn Văn B",
+      "LichTrinh": "- ngày 1: tràng an",
+      "khoihanh": "Hà Nội",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "comment": "Chuyến đi rất tuyệt vời, tôi sẽ quay lại lần sau!",
+      "createdAt": "2024-11-20T10:00:00Z",
+      "tourId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "comment": "Hướng dẫn viên rất nhiệt tình, tour rất đáng giá.",
+      "createdAt": "2024-11-21T12:30:00Z",
+      "tourId": 2
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "comment": "Phong cảnh đẹp nhưng dịch vụ cần cải thiện.",
+      "createdAt": "2024-11-22T15:00:00Z",
+      "tourId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "comment": "Mọi thứ rất ổn, dịch vụ tốt, giá cả hợp lý.",
+      "createdAt": "2024-11-23T08:45:00Z",
+      "tourId": 4
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "comment": "Một trải nghiệm tuyệt vời, tôi sẽ giới thiệu cho bạn bè!",
+      "createdAt": "2024-11-24T11:20:00Z",
+      "tourId": 5
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "customerName": "Nguyễn Văn A",
+      "amount": 5000000,
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "customerName": "Lê Thị B",
+      "amount": 7500000,
+      "status": "Paid"
+    }
+  ]
+}
