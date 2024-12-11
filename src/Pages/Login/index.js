@@ -13,34 +13,35 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/api/login', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ username, password }),
-      });
+      // Fetch user data from API
+      const response = await fetch('http://localhost:3002/users');
 
       if (response.ok) {
-        const data = await response.json();
-        const { token, user } = data;
+        const users = await response.json();
 
-        // Lưu token và thông tin người dùng vào localStorage
-        localStorage.setItem('token', token);
-        localStorage.setItem('user', JSON.stringify(user));
+        // Find the user with matching username and password
+        const user = users.find(
+          (u) => (u.username === username || u.email === username) && u.password === password
+        );
 
-        // Điều hướng dựa trên quyền của người dùng
-        if (user.role === 'admin') {
-          navigate('/admin/dashboard');
+        if (user) {
+          // Save user data to localStorage
+          localStorage.setItem('user', JSON.stringify(user));
+
+          // Navigate based on user role
+          if (user.role === 'admin') {
+            navigate('/admin/dashboard');
+          } else {
+            navigate('/dashboard');
+          }
         } else {
-          navigate('/login');
+          setError('Tên đăng nhập hoặc mật khẩu không chính xác.');
         }
       } else {
-        const data = await response.json();
-        setError(data.message || 'Login failed. Please try again.');
+        setError('Không thể kết nối đến máy chủ. Vui lòng thử lại sau.');
       }
     } catch (error) {
-      setError('Login failed. Please check your connection.');
+      setError('Đã xảy ra lỗi. Vui lòng thử lại.');
     }
   };
 
