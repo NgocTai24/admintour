@@ -12,6 +12,7 @@ import EditTour from './Pages/EditTour'; // Nếu có thêm trang sửa tour
 import RoleManagement from './Pages/Role';
 import InvoiceManagement from './Pages/Invoice';
 import RevenuePage from './Pages/RevenuePage';
+import OrderManagement from './Pages/OrderManagement';
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
                 <Route path="/role" element={<RoleManagement />} />
                 <Route path="/invoices" element={<InvoiceManagement />} />
                 <Route path="/revenue" element={<RevenuePage />} />
+                <Route path="/ordermanagement" element={<OrderManagement />} />
 
                 {/* Route mặc định */}
                 <Route path="*" element={<Dashboard />} />

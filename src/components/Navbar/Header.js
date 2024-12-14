@@ -16,7 +16,10 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Admin Tour</a>
+        <button className="navbar-brand btn btn-link" style={{ textDecoration: 'none' }} onClick={(e) => e.preventDefault()}>
+          Admin Tour
+        </button>
+
         <button
           className="navbar-toggler"
           type="button"

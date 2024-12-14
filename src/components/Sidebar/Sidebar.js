@@ -42,6 +42,11 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/ordermanagement " className="nav-link text-white">
+            <i className="bi bi-file-earmark me-2" style={{ fontSize: '1.2em' }}></i> Quản lý Đơn Hàng
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/revenue" className="nav-link text-white">
             <i className="bi bi-bar-chart me-2" style={{ fontSize: '1.2em' }}></i> Doanh Thu
           </NavLink>
